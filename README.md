@@ -1,10 +1,16 @@
-# ECM3446 Continuous Assessment
-##### by Talhaa Hussain
+# advection-simulation
 
-This submission includes this file, a single C program, three gnuplot scripts, and four PNG images (located in the results subdirectory).
+Continuous Assessment for ECM3446 - High Performance Computing, set by Prof. Luo Man (Year 3, Semester 2). Simulates the advection of material from a chimney by wind in the planetary boundary layer. The main program is optimised for high performance computers by parallelisation, using OpenMP. This repository includes this file, a single C program, three gnuplot scripts, and four PNG images (located in the results subdirectory).
+
+This work received a final mark of 100/100. 
+
+Please see `specification.pdf` for specification.
+
+### Prerequisites
 
 The following instructions assume that you are trying to run the program and view the results with a Linux machine, with gcc, OpenMP, gnuplot.
 
+### Usage
 
 The compiled program has NOT been included - please compile the serial program with
 
