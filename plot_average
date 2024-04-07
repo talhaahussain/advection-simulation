@@ -1,0 +1,30 @@
+# This gnuplot script plots the results from the coursework assignment. 
+# It is assumed that the data to be plotted are in a file called
+# vertical_averages.dat which contains 3 columns: x,y,u
+# The plot is sent to a PNG file called vertical_averages.png 
+# To use this file copy it to the directory/folder containing 
+# vertical_averages.dat and run the command: 
+# gnuplot plot_average
+
+
+# Send output to a PNG file
+set terminal png  enhanced 
+# Set the name of the output file
+set output "vertical_averages.png"
+
+# Set ranges and labels for axes
+set xrange [0:30.0]
+set xlabel "x"
+set ylabel "Average of u(x, y)"
+
+# Enforce an aspect ratio of 1
+set size square
+
+# Set the range of the colour scale
+#set cbrange [0:1]
+unset key
+
+# Plot the data 
+plot "vertical_averages.dat" with line lc rgb "blue" lw 2 
+
+# End of file
