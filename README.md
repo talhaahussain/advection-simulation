@@ -8,7 +8,7 @@ Please see `specification.pdf` for specification.
 
 ### Prerequisites
 
-The following instructions assume that you are trying to run the program and view the results with a Linux machine, with gcc, OpenMP, gnuplot.
+The following instructions assume that you are trying to run the program and view the results with a Linux machine, with `gcc`, `openmp`, `gnuplot`.
 
 ### Usage
 
